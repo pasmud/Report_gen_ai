@@ -87,4 +87,12 @@ coverage.xml
 
 .vscode
 report_gen_ai_env
+
+# Ignore everything in the chromadb_data directory
 chromadb_data/*
+
+# But keep the directory itself
+!chromadb_data/
+
+# Optional: Ignore hidden files or subdirectories within chromadb_data
+chromadb_data/**/*
