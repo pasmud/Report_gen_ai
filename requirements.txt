@@ -1,0 +1,9 @@
+Django
+djangorestframework
+celery
+redis
+openai
+langchain
+chromadb
+python-docx
+PyPDF2

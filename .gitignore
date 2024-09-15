@@ -1,0 +1,89 @@
+# Django/Python specific files and directories
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+*.swp
+*.swo
+*.db
+*.sqlite3
+
+# ENV files
+.env
+*.env
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media
+staticfiles
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# PyCharm specific files
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node.js specific (if you have frontend in the same repository)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Test/temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+.vscode
+report_gen_ai_env
